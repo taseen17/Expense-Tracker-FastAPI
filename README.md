@@ -2,15 +2,12 @@
 
 A REST API for tracking personal expenses, built with **FastAPI**, **SQLAlchemy** and **PostgreSQL**. Database schema changes are managed with **Alembic** migrations, and the endpoints are covered by **pytest** tests.
 
-> Items in [square brackets] are placeholders. Replace them with what your project actually does, and delete any line that doesn't apply.
-
 ## Features
 
 - Create, read, update and delete expenses
-- [Categories for expenses, e.g. food, transport, bills]
-- [Filter expenses by date range / category]
-- [Summary endpoint: total spent per category or per month]
-- [User registration and JWT authentication, if implemented]
+- Categories for expenses, e.g. food, transport, bills
+- Filter expenses by date range / category
+- User registration and JWT authentication
 - Request validation with Pydantic and clear error responses
 - Interactive API docs generated automatically (Swagger UI / OpenAPI)
 
@@ -40,8 +37,6 @@ A REST API for tracking personal expenses, built with **FastAPI**, **SQLAlchemy*
 ├── requirements.txt
 └── README.md
 ```
-
-> Adjust this tree to match your real folder layout.
 
 ## Getting Started
 
@@ -120,5 +115,5 @@ alembic upgrade head
 ## Author
 
 **Mir Muktadir Ali Taseen**
-GitHub: [github.com/taseen17](https://github.com/taseen17)
-LinkedIn: [linkedin.com/in/mir-muktadir-ali-taseen-68098a2a4](https://linkedin.com/in/mir-muktadir-ali-taseen-68098a2a4)
+GitHub: (https://github.com/taseen17)
+LinkedIn: (https://linkedin.com/in/mir-muktadir-ali-taseen-68098a2a4)
